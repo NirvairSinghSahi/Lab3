@@ -1,0 +1,27 @@
+<html>
+    <head><title>blog_post_form.html</title>
+        <style>
+            body{
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="text" name="username"  placeholder="Enter the Title"><br> 
+        <input type="text" name="username"  placeholder="Enter the author's name "><br>
+        <textarea name="message" rows="4" cols="50" placeholder="Enter your message here"></textarea><hr>
+
+
+        <select name="posts" id="blog_post_category">
+            <option value="">__Please choose an option__</option>
+            <option value="cats">Cats</option>
+            <option value="dogs">Dogs</option>
+            <option value="horses">Horses</option>
+            <option value="hamsters">Hamsters</option>
+        </select><hr>
+
+
+        <input type="submit" value="submit"><br>
+        <button type="button" onclick="alert('ButtonClicked!')">ClickMe!</button>
+    </body>
+</html>
